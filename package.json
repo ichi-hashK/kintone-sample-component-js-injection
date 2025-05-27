@@ -1,0 +1,40 @@
+{
+  "name": "kintonesamplecomponentjsinjection",
+  "version": "1.0.0",
+  "description": "Kintoneへの組み込みコンポーネントのサンプル。Vanilla JS/React/Vue",
+  "main": "index.js",
+  "scripts": {
+    "build:vue": "webpack --config webpack.config.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichi-hashK/kintone-sample-component-js-injection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ichi-hashK/kintone-sample-component-js-injection/issues"
+  },
+  "homepage": "https://github.com/ichi-hashK/kintone-sample-component-js-injection#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vue": "^3.5.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.3",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@vue/compiler-sfc": "^3.5.15",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "vue-loader": "^17.4.2",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
